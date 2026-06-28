@@ -28,6 +28,7 @@ class LoginView extends StatelessWidget {
             child: Form(
               key: _formkey,
               child: Column(
+                
                 children: [
                   Gap(100),
                   SvgPicture.asset("assets/logo/logo.svg"),

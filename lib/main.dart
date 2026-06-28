@@ -16,6 +16,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'huungry app',
+      theme: ThemeData(
+        scaffoldBackgroundColor: Colors.white,
+      ),
 
       home:Root(),
     );
